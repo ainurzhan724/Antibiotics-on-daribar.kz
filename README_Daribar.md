@@ -85,18 +85,6 @@ The presentation reports the following findings for the analyzed snapshot:
 - `daribar_final (1).csv` — processed dataset snapshot.
 - `Daribar презентация.pptx` — slides with analysis and visualizations.
 
-## Reproducibility note
-
-**The original script currently requires cleanup before it can be run end-to-end.** It references additional intermediate CSV files not present in the repository, and some lines need syntax/Pandas corrections. The available presentation and data files document the exploratory project, but the repository should not yet be described as a fully reproducible pipeline.
-
-Recommended next steps:
-
-1. Fix syntax and DataFrame operations in the script.
-2. Consolidate cleaning steps and create or regenerate required intermediate datasets.
-3. Validate the product-matching key and re-run the statistical test.
-4. Export 3–5 representative charts as images and embed them here.
-5. Add `requirements.txt` and, optionally, a cleaned Jupyter notebook.
-
 ## Scope and limitations
 
 This is an **educational portfolio project**, not an operational pharmacy procurement system. Prices, stock availability, scraping behavior, and logistics tariffs may change. Results should not be interpreted as purchasing or medical advice.
